@@ -3,6 +3,17 @@
 }
 
 #PlurkEx_friends_battle{
+
+    width: 0px;
+    height: 0px;
+    position:absolute;
+    left: 0;
+    top: 0;
+}
+
+
+
+#PlurkEx_friends_battle>div{
     width:auto;
     height:150px;
     top:5%;
@@ -13,8 +24,18 @@
     position: absolute;
     padding:5px;
     color: #000;
+}
+
+#PlurkEx_friends_battle #Menu{
     
 }
+
+
+#PlurkEx_friends_battle #Battle{
+    
+}
+
+
 
 #PlurkEx_friends_battle-Msg{
     display:none;
@@ -104,6 +125,8 @@
     border-radius: 5px;
     font-size: 12px;
 }
+
+
 
 
 /*
