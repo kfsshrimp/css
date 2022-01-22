@@ -33,13 +33,30 @@
 
 #PlurkEx_friends_battle #Battle{
     display: none;
+    padding-top: 20px;
+}
+#PlurkEx_friends_battle #Battle [data-event="close"]{
+    position: absolute;
+    border-radius: 2px;
+    margin: 5px;
+    font-size: 10px;
+    padding: 2px;
+    right: 0;
 }
 
 #PlurkEx_friends_battle #Battle>div{
-    
+    display: flex;
+    height: 30%;
     border:1px solid #000;
     padding: 5px;
-    margin: 5px;
+    margin: 5px 0px;
+}
+
+#PlurkEx_friends_battle #Battle #enemy{
+    
+}
+#PlurkEx_friends_battle #Battle #team{
+    
 }
 
 
