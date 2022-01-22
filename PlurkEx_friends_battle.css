@@ -83,14 +83,6 @@
     margin-top: 20px;
 }
 
-#PlurkEx_friends_battle-Msg [data-event="close"]{
-    position: absolute;
-    border-radius: 2px;
-    margin: 2px;
-    font-size: 10px;
-    padding: 2px;
-    right: 0;
-}
 
 
 
@@ -154,6 +146,18 @@
 #PlurkEx_friends_battle input[type="button"]:hover,#PlurkEx_friends_battle-Msg  input[type="button"]:hover{
     background: #00f;
 }
+
+#PlurkEx_friends_battle-Msg input[data-event="close"]{
+    position: absolute;
+    border-radius: 2px;
+    margin: 2px;
+    font-size: 10px;
+    padding: 2px;
+    right: 0;
+}
+
+
+
 
 #PlurkEx_friends_battle-Msg .info{
     background: #fffc;
