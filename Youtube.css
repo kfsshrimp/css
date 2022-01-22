@@ -18,6 +18,7 @@
 
 #Youtube-Msg ul{
     list-style: none;
+    margin-bottom: 4px;
 }
 #Youtube-Msg li{
     border-radius: 4px;
@@ -173,5 +174,10 @@
     z-index: 9999;
     color: #fff;
     font-size: 20px;
+}
+
+#SpeechRecord.color2 {
+    background: #fff5;
+    color: #000;
 }
 
