@@ -95,6 +95,17 @@
 }
 
 
+#PlurkEx_friends_battle .info{
+    background: #fffc;
+    border:1px solid #000;
+    color: #000;
+    margin: 2px;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+
 /*
 transform: translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg)
 */
