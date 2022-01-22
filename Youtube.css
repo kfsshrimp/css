@@ -151,13 +151,14 @@
 }
 
 #SpeechRecord {
-    left: 30%;
-    top: 10px;
+    left: 0;
+    top: 0;
     min-width: 200px;
-    height: 20px;
-    background: #fff;
+    min-height: 20px;
+    background: #0005;
+    padding: 0px 5px;
     position: absolute;
     z-index: 9999;
-    color: rgb(255, 255, 255);
+    color: #fff;
 }
 
