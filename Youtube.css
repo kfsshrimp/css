@@ -9,7 +9,7 @@
     display:none;
     border:1px solid #000;
     border-radius: 5px;
-    background: #fff5;
+    background: #fffa;
     position: absolute;
     padding:5px;
     color: #000;
@@ -33,7 +33,7 @@
     display:none;
     border:1px solid #000;
     border-radius: 5px;
-    background: #fff5;
+    background: #fffa;
     position: absolute;
     padding:5px;
     color: #000;
@@ -168,7 +168,7 @@
     top: 0;
     min-width: 100px;
     min-height: 20px;
-    background: #0005;
+    background: #0008;
     padding: 0px 5px;
     position: absolute;
     z-index: 9999;
@@ -177,7 +177,7 @@
 }
 
 #SpeechRecord.color2 {
-    background: #fff5;
+    background: #fffa;
     color: #000;
 }
 
