@@ -21,6 +21,7 @@ body{
     display: none;
 }
 
+
 iframe{
     resize: both;
     width: 480px;
@@ -33,7 +34,7 @@ input[type=button]{
     margin: 2px;
 }
 
-input[type=button]:hover{
+input[type=button]:not([disabled]):hover{
     background: #00f;
     color: #fff;
 }
@@ -53,7 +54,7 @@ div#Main{
 
 div#Main div#Menu{
     width: 90%;
-    height: 5%;
+    height: 40px;
     display: flex;
     margin: 10px;
     padding: 10px;
@@ -61,18 +62,34 @@ div#Main div#Menu{
     border-radius: 5px;
 }
 
+
+div#Main div#Chat{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    border: 2px double #ccc;
+    border-radius: 5px;
+}
+
+div#Main div#Chat textarea{
+    width: 100%;
+    height: 100%;
+}
+
 div#Main div#Content{
     width: 90%;
-    height: 80%;
+    height: 70%;
     display: flex;
     padding: 10px;
 }
 
 div#Main div#Content>div.npc{
     display: grid;
-    height: 80%;
+    height: 95%;
     width: 100%;
-    margin: 10px;
+    margin: 1px;
     padding: 10px;
     border: 2px double #ccc;
     border-radius: 5px;
@@ -82,6 +99,15 @@ div#Main div#Content>div.npc>input{
     
     width: 100%;
     border-radius: 5px;
+}
+
+div#Main div#Content>div.npc>div{
+    min-height: 60px;
+    color: #fff;
+    padding: 10px 0 0 10px;
+    border: 2px double #ccc;
+    border-radius: 5px;
+    margin: 2px 0 0 0;
 }
 
 
