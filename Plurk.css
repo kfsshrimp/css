@@ -137,5 +137,23 @@ div#VoteOption>div span.error{
 }
 
 div#DateYMD{
-    display: block;
+    display: block !important;
+}
+
+div#PlurkInfo{
+    background: #fff;
+    border-radius: 3px;
+    margin: 2px 0px;
+}
+
+div#PlurkInfo hr{
+    width: 100%;
+}
+
+div.plurkinfo{
+    background: #fff;
+    border-radius: 3px;
+    margin: 2px 0px;
+    padding: 4px;
+    display: grid;
 }
