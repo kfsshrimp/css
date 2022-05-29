@@ -136,12 +136,11 @@ div#VoteOption>div span.error{
     max-height:100%;
 }
 
-div#DateYMD{
+div#SearchOption{
     display: block !important;
 }
 
 div#PlurkInfo{
-    background: #fff;
     border-radius: 3px;
     margin: 2px 0px;
 }
@@ -150,10 +149,14 @@ div#PlurkInfo hr{
     width: 100%;
 }
 
-div.plurkinfo{
+div.plurkinfolist{
     background: #fff;
     border-radius: 3px;
     margin: 2px 0px;
     padding: 4px;
     display: grid;
+}
+
+div.plurkinfolist div{
+    font-size: 8px;
 }
