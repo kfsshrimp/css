@@ -154,9 +154,8 @@ div.plurkinfolist{
     border-radius: 3px;
     margin: 2px 0px;
     padding: 4px;
-    display: grid;
-}
-
-div.plurkinfolist div{
+    
+    width: 380px;
+    max-height: 130px;
     font-size: 8px;
 }
