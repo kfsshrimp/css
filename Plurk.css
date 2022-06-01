@@ -106,7 +106,7 @@ div#VoteOption>div{
 div#VoteOption>div input[type="text"]{
     width: 100px;
 }
-div#VoteOption>div span{
+div#VoteOption>div span.validate{
     display:none;
     color:#f00;
     width: 0px;
@@ -156,10 +156,7 @@ div.plurkinfolist{
     padding: 4px;
     
     width: 380px;
-    max-height: 130px;
+    
     font-size: 8px;
 }
 
-div.plurkinfolist div[data-type]{
-    max-height: 100px;
-}
