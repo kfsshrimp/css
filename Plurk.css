@@ -143,6 +143,9 @@ div#SearchOption{
 div#PlurkInfo{
     border-radius: 3px;
     margin: 2px 0px;
+    
+    overflow-y: scroll;
+    
 }
 
 div#PlurkInfo hr{
@@ -152,6 +155,7 @@ div#PlurkInfo hr{
 div.plurkinfolist{
     background: #fff;
     border-radius: 3px;
+    border: 2px double #000;
     margin: 2px 0px;
     padding: 4px;
     
