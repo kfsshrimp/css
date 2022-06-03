@@ -4,7 +4,7 @@
 #Plurk{
     display:none;
 }
-#Plurk-Msg,#Plurk-FlashMsgPop{
+#Plurk-Msg,#Plurk-FlashMsg{
     display:none;
     border:1px solid #000;
     border-radius: 5px;
@@ -14,7 +14,7 @@
     color: #000;
     z-index:9999;
 }
-#Plurk-Msg input[type="button"],#Plurk-FlashMsgPop input[type="button"]{
+#Plurk-Msg input[type="button"],#Plurk-FlashMsg input[type="button"]{
     padding: 4px 6px;
     font-size: 12px;
 }
