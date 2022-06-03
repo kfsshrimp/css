@@ -13,6 +13,7 @@
     padding:5px;
     color: #000;
     z-index:9999;
+    transition-duration: 1s;
 }
 #Plurk-Msg input[type="button"],#Plurk-FlashMsg input[type="button"]{
     padding: 4px 6px;
