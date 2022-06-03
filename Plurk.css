@@ -15,6 +15,14 @@
     z-index:9999;
     transition-duration: 1s;
 }
+#Plurk-FlashMsg{
+    background: #fffa;
+}
+
+#Plurk-File{
+    display: none;
+}
+
 #Plurk-Msg input[type="button"],#Plurk-FlashMsg input[type="button"]{
     padding: 4px 6px;
     font-size: 12px;
