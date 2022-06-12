@@ -4,4 +4,20 @@
 
 #dynamic_logo{
     transition-duration: 1s !important;
+    width: 117px;
+    height: 77px;
+    margin: 0px;
+}
+
+#dynamic_logo:hover{
+    animation : HoverPet 1s infinite linear;
+}
+
+@keyframes HoverPet {
+    0%,100%{
+        transform: scale(1.1);
+    }
+    50%{
+        transform: scale(0.9);
+    }
 }
