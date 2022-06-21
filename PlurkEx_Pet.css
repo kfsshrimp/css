@@ -22,6 +22,14 @@
     }
 }
 
+.petDiv{
+    background: #fff;
+    border-radius: 5px;
+    padding: 4px;
+    font-size: 8px;
+    margin-bottom: 5px;
+}
+
 #PetStatus{
     background: #fff;
     border-radius: 5px;
