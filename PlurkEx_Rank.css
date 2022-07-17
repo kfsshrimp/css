@@ -23,5 +23,5 @@ div.plurkinfolist{
 }
 
 div#page_bar{
-    display: block;
+    display: block !important;
 }
