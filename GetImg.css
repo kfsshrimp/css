@@ -5,6 +5,8 @@ canvas{
     z-index: 9999;
 }
 #ControlBar{
+    padding: 4px;
+    background: #00f9;
     left:40%;
     position: absolute;
     z-index: 9999;
@@ -16,7 +18,9 @@ canvas{
     z-index: 9999;
     
 }
-
+input[type=button]{
+    cursor: pointer;
+}
 input[type=number]{
     width:60px;
 }
