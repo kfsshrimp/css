@@ -1,0 +1,17 @@
+canvas{
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    z-index: 9999;
+}
+#ControlBar{
+    left:40%;
+    position: absolute;
+    z-index: 9999;
+}
+#GetImgDiv{
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    z-index: 9999;
+}
