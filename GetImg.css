@@ -2,8 +2,11 @@ canvas{
     top: 0px;
     left: 0px;
     position: absolute;
-    z-index: 9999;
+    z-index: 9998;
+    cursor: pointer;
+    /*height: inherit;*/
 }
+
 #ControlBar{
     padding: 4px;
     background: #00f9;
@@ -15,7 +18,7 @@ canvas{
     top: 0px;
     left: 0px;
     position: absolute;
-    z-index: 9999;
+    z-index: 9998;
     
 }
 input[type=button]{
