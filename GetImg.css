@@ -9,11 +9,10 @@ canvas{
 #ControlBar{
     background: #00f9;
     padding: 4px;
-    left: calc(100% - 400px);
+    left:30%;
     position: fixed;
     top: 10px;
     z-index: 9999;
-    width: 380px;
     cursor: move;
 }
 #GetImgDiv{
