@@ -17,8 +17,8 @@ canvas{
     cursor: move;
 }
 #GetImgDiv{
-    top: 0px;
-    left: 0px;
+    top: 10px;
+    left: 10px;
     position: fixed;
     z-index: 9998;
     overflow: hidden;
