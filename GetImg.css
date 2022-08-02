@@ -19,6 +19,7 @@ canvas{
     left: 0px;
     position: absolute;
     z-index: 9998;
+    overflow: hidden;
     
 }
 input[type=button]{
