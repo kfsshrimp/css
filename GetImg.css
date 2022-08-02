@@ -4,20 +4,22 @@ canvas{
     position: absolute;
     z-index: 9998;
     cursor: pointer;
-    /*height: inherit;*/
 }
 
 #ControlBar{
-    padding: 4px;
     background: #00f9;
-    left:40%;
-    position: absolute;
+    padding: 4px;
+    left: calc(100% - 400px);
+    position: fixed;
+    top: 10px;
     z-index: 9999;
+    width: 380px;
+    cursor: move;
 }
 #GetImgDiv{
     top: 0px;
     left: 0px;
-    position: absolute;
+    position: fixed;
     z-index: 9998;
     overflow: hidden;
     
@@ -26,5 +28,5 @@ input[type=button]{
     cursor: pointer;
 }
 input[type=number]{
-    width:60px;
+    width:32px;
 }
