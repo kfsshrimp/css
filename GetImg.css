@@ -27,5 +27,5 @@ input[type=button]{
     cursor: pointer;
 }
 input[type=number]{
-    width:32px;
+    width:40px;
 }
